@@ -70,16 +70,13 @@ public class BaseClass {
         driver.quit();
     }
 
-//    public void captureScreen(WebDriver driver, String tname) throws IOException, IOException {
-//        TakesScreenshot ts = (TakesScreenshot) driver;
-//        File source = ts.getScreenshotAs(OutputType.FILE);
-//        File target = new File(getProperty("user.dir") + "/screenshots/" + tname + ".png");
-//        FileUtils.copyFile(source, target);
-//        out.println("Screenshot taken");
-//    }
-
-    public static WebDriver getDriver(){
-        return driver;
+    public void captureScreen(WebDriver driver, String tname) throws IOException, IOException {
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        File target = new File(getProperty("user.dir") + "/screenshots/" + tname + ".png");
+        FileUtils.copyFile(source, target);
+        out.println("Screenshot taken");
     }
+
 
 }

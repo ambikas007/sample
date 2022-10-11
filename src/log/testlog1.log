@@ -73,3 +73,57 @@
 2022-10-11 12:42:32,573 [main] INFO OrangeHRM - clicked submit
 2022-10-11 12:53:32,469 [main] INFO OrangeHRM - initializing chromedriver
 2022-10-11 12:53:37,089 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 19:04:39,230 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 19:04:42,136 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 19:04:50,443 [main] INFO OrangeHRM - adding usernamae
+2022-10-11 19:04:55,546 [main] INFO OrangeHRM - adding password
+2022-10-11 19:04:55,585 [main] INFO OrangeHRM - clicked submit
+2022-10-11 19:08:07,415 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 19:08:10,479 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 19:08:38,065 [main] INFO OrangeHRM - adding user namae
+2022-10-11 19:08:43,196 [main] INFO OrangeHRM - adding password
+2022-10-11 19:08:43,277 [main] INFO OrangeHRM - clicked submit
+2022-10-11 19:12:52,342 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 19:12:55,049 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 19:13:10,906 [main] INFO OrangeHRM - adding user namae
+2022-10-11 19:13:16,009 [main] INFO OrangeHRM - adding password
+2022-10-11 19:13:16,057 [main] INFO OrangeHRM - clicked submit
+2022-10-11 19:19:26,780 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 19:19:29,371 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 19:19:49,529 [main] INFO OrangeHRM - adding user namae
+2022-10-11 19:19:54,620 [main] INFO OrangeHRM - adding password
+2022-10-11 19:19:54,660 [main] INFO OrangeHRM - clicked submit
+2022-10-11 19:24:19,894 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 19:24:22,486 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 19:24:39,659 [main] INFO OrangeHRM - adding user namae
+2022-10-11 19:24:44,752 [main] INFO OrangeHRM - adding password
+2022-10-11 19:24:44,793 [main] INFO OrangeHRM - clicked submit
+2022-10-11 19:27:35,191 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 19:27:37,736 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 19:27:57,049 [main] INFO OrangeHRM - adding user namae
+2022-10-11 19:28:02,146 [main] INFO OrangeHRM - adding password
+2022-10-11 19:28:02,186 [main] INFO OrangeHRM - clicked submit
+2022-10-11 19:28:05,686 [main] INFO OrangeHRM - logged in successfully
+2022-10-11 19:29:38,824 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 19:29:41,376 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 19:29:56,570 [main] INFO OrangeHRM - adding user namae
+2022-10-11 19:30:01,643 [main] INFO OrangeHRM - adding password
+2022-10-11 19:30:01,682 [main] INFO OrangeHRM - clicked submit
+2022-10-11 20:46:15,184 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 20:46:18,409 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 20:46:34,069 [main] INFO OrangeHRM - adding user namae
+2022-10-11 20:46:39,160 [main] INFO OrangeHRM - adding password
+2022-10-11 20:46:39,199 [main] INFO OrangeHRM - clicked submit
+2022-10-11 20:46:41,907 [main] INFO OrangeHRM - logged in successfully
+2022-10-11 20:48:22,805 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 20:48:26,293 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 20:48:38,297 [main] INFO OrangeHRM - adding user namae
+2022-10-11 20:48:43,390 [main] INFO OrangeHRM - adding password
+2022-10-11 20:48:43,430 [main] INFO OrangeHRM - clicked submit
+2022-10-11 20:48:46,238 [main] INFO OrangeHRM - logged in successfully
+2022-10-11 20:50:06,732 [main] INFO OrangeHRM - initializing chromedriver
+2022-10-11 20:50:09,882 [main] INFO OrangeHRM - Opening HRM App
+2022-10-11 20:50:16,939 [main] INFO OrangeHRM - adding user namae
+2022-10-11 20:50:22,033 [main] INFO OrangeHRM - adding password
+2022-10-11 20:50:22,073 [main] INFO OrangeHRM - clicked submit
+2022-10-11 20:50:25,072 [main] INFO OrangeHRM - logged in successfully

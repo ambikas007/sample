@@ -14,7 +14,7 @@ public class LoginTest extends BaseClass {
 
         loginpage.setUserName(username);
         System.out.println("username is provided");
-        log.info("adding usernamae");
+        log.info("adding user namae");
         Thread.sleep(5000);
         loginpage.setPassWord(password);
         System.out.println("password is provided");
@@ -26,7 +26,7 @@ public class LoginTest extends BaseClass {
         String url = driver.getCurrentUrl();
         System.out.println("navigated to homepage and url is: " + url);
 
-        if (url.contains("https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList00")) {
+        if (url.contains("https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList")) {
             Assert.assertTrue(true);
             System.out.println("login test passed");
             log.info("logged in successfully");
@@ -36,6 +36,12 @@ public class LoginTest extends BaseClass {
             System.out.println("login test failed");
 //            captureScreen(driver,"faliedLogin");
         }
+
+        loginpage.clickOnProfile();
+        loginpage.clickonLogout();
+
+
+
     }
 
 
