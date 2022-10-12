@@ -1,7 +1,6 @@
 package test;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.OutputType;
@@ -34,24 +33,16 @@ public class BaseClass {
     public String username = readconfig.getUserName();
     public String password = readconfig.getPassword();
 
-    public static Logger log;
-
-
 
     @Parameters("browser")
     @BeforeClass
     public void setUp(String br) throws MalformedURLException {
-        log = Logger.getLogger("OrangeHRM");
-        PropertyConfigurator.configure("log4j.properties");
-
         if (br.equals("chrome")) {
-            log.info("initializing chromedriver");
             System.setProperty("webdriver.chrome.driver", "src/Drivers/chromedriver.exe");
             driver = new ChromeDriver();
         }
         else if(br.equals("firefox"))
         {
-            log.info("intializing firefox driver");
             System.setProperty("webdriver.gecko.driver","src/Drivers/geckodriver.exe");
             driver = new FirefoxDriver();
         }
@@ -60,7 +51,6 @@ public class BaseClass {
         System.out.println("maximizing windows");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         System.out.println("opening OrangeHRM website");
-        log.info("Opening HRM App");
         driver.get(baseURL);
 
     }
@@ -70,13 +60,12 @@ public class BaseClass {
         driver.quit();
     }
 
-    public void captureScreen(WebDriver driver, String tname) throws IOException, IOException {
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        File source = ts.getScreenshotAs(OutputType.FILE);
-        File target = new File(getProperty("user.dir") + "/screenshots/" + tname + ".png");
-        FileUtils.copyFile(source, target);
-        out.println("Screenshot taken");
-    }
-
+//    public void captureScreen(WebDriver driver, String tname) throws IOException, IOException {
+//        TakesScreenshot ts = (TakesScreenshot) driver;
+//        File source = ts.getScreenshotAs(OutputType.FILE);
+//        File target = new File(getProperty("user.dir") + "/screenshots/" + tname + ".png");
+//        FileUtils.copyFile(source, target);
+//        out.println("Screenshot taken");
+//    }
 
 }

@@ -31,18 +31,6 @@ public class LoginPage {
 
         public void clickSubmit() {submitButton.click(); }
 
-    @FindBy(xpath = "//p[@class='oxd-userdropdown-name']")
-    private WebElement clickProfile;
-        public void clickOnProfile(){
-            clickProfile.click();
-        }
-
-       @FindBy (xpath = "//a[normalize-space()='Logout']")
-     private WebElement clickLogout;
-        public void clickonLogout(){
-            clickLogout.click();
-        }
-
 
 
 }
