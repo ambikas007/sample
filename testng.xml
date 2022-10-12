@@ -5,7 +5,7 @@
 <!--        <listener class-name="utils.ListnerClass"></listener>-->
 <!--    </listeners>-->
     <test verbose="2" preserve-order="true" name="C:/com.zen.in">
-<!--        <parameter name="browser" value="chrome"></parameter>-->
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="test.LoginTest">
                 <methods>
